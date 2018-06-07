@@ -1,0 +1,29 @@
+Enter any key to start game
+
+Computer guesses word from array of animal list
+
+User enters 12 letters to guess animal name
+
+Display letters as user types it
+	Do not accept repeat letter and do not count repeat letter
+	
+Check if new letter
+	   reduce guess counter
+          add letter into show lettersused array
+
+Display guess counter and letterused array
+	
+Check letter in computerguess word and save position/s
+
+Display correct word if letter is found in computerguess word
+
+check win
+	if win, then 
+		Display animal name, picture and sound in left panel
+		Set game as finished
+
+check lost of guessc counter is 0
+		Display lost title, picture and sound in left panel
+		Set game to finish
+
+
